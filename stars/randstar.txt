@@ -1,0 +1,6 @@
+136 bytes parallax 2D starfield features:
+
+- 500 stars (can be just about any number)
+- Random star generator
+- 5 levels
+- Appropriate star color according to level

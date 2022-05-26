@@ -1,0 +1,161 @@
+DOSSEG
+.MODEL SMALL
+.386
+.STACK 100h
+JUMPS
+.DATA
+
+Clipping        dw 0
+Character       db 0
+CurrentChar     dw 0
+CharacterPos    dw 0
+order           db 'abcdefghijklmn%opqrstuvwxyz .',0
+scrolltext      db 'greetz go out to party ppl everywhere$',0
+fontfile        db 'font.raw',0
+font            db 16000 dup (?)
+buffer          db 320*24 dup (0)
+
+.CODE
+
+mov     ax,@data
+mov     ds,ax
+mov     es,ax
+
+mov     ah,3Dh
+xor     al,al
+mov     dx,offset fontfile
+int     21h
+mov     bx,ax
+mov     ah,3Fh
+mov     cx,16000
+mov     dx,offset font
+int     21h
+mov     ah,3Eh
+int     21h
+
+mov     ax,13h
+int     10h
+
+main:
+lea     si,scrolltext
+add     si,CurrentChar
+lodsb
+mov     Character,al
+lea     si,order
+xor     bx,bx
+get_font_position:
+lodsb
+cmp     al,'%'
+je      addstuff
+cmp     Character,al
+je      disp
+add     bx,22
+jmp     get_font_position
+addstuff:
+mov     bx,7360
+jmp     get_font_position
+
+disp:
+lea     si,font
+add     si,bx
+add     si,clipping
+lea     di,buffer
+mov     cx,24
+Vloop2:
+push    cx
+mov     cx,22
+sub     cx,clipping
+rep     movsb
+add     si,320
+add     di,320
+sub     si,22
+add     si,clipping
+sub     di,22
+add     di,clipping
+pop     cx
+loop    Vloop2
+
+do_rest_of_text:
+
+lea     si,scrolltext
+add     si,CurrentChar
+add     si,1
+loooop:
+lodsb
+cmp     al,'$'
+je      done
+push    si
+mov     Character,al
+lea     si,order
+xor     bx,bx
+get_font_position1:
+lodsb
+cmp     al,'%'
+je      addstuff1
+cmp     Character,al
+je      disp1
+add     bx,22
+jmp     get_font_position1
+addstuff1:
+mov     bx,7360
+jmp     get_font_position1
+
+disp1:
+lea     si,font
+add     si,bx
+lea     di,buffer
+add     di,22
+sub     di,clipping
+add     di,CharacterPos
+mov     cx,24
+Vloop3:
+push    cx
+mov     cx,22
+rep     movsb
+add     si,298
+add     di,298
+pop     cx
+loop    Vloop3
+pop     si
+add     CharacterPos,22
+jmp     loooop
+
+done:
+mov     ax,0a000h
+mov     es,ax
+xor     di,di
+lea     si,buffer
+mov     cx,(320*24)/2
+rep     movsw
+call    waitvrt
+cmp     al,27
+je      exit
+in      al,60h
+cmp     al,1
+je      exit
+mov     ax,@data
+mov     es,ax
+mov     characterpos,0
+
+cmp     clipping,20
+je      reset
+add     clipping,2
+jmp     main
+
+reset:
+mov     clipping,0
+cmp     currentchar,36
+jnz     continue
+mov     CurrentChar,0
+jmp     main
+continue:
+inc     currentchar
+jmp     main
+
+exit:
+mov     ax,3
+int     10h
+mov     ax,4c00h
+int     21h
+INCLUDE waitvrt.inc
+end

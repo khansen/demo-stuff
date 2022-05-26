@@ -1,0 +1,52 @@
+OK, let's say you've defined a triangle (polygon) which looks
+something like this:
+
+     P1 -
+        -----
+        ---------
+        -------------
+        ----------------- P2
+        ---------------
+        -------------
+        -----------
+        ---------
+        -------
+        -----
+        ---
+        -
+        P3
+
+P1, P2 and P3 are the X and Y coordinates of the polygon's three corners.
+
+You've come to the conclusion that the poly looks very dull when filled
+with a constant color all the time. So let's take a look at how we can
+SHADE it using some simple color interpolation.
+
+Since you've already written a polygon filler, I assume you already are
+familiar with the concepts of interpolation (Otherwise; shame on you
+for ripping someone else's source code ;-] ). What we do is assign each
+corner in the polygon a color. Then, as we draw the polygon, we
+INTERPOLATE from one color to the other.
+
+P1.color = 16
+P2.color = 32
+P3.color = 63
+
+First, we calculate the X step value (how much to increase the color value
+between each X coordinate) from P1.X to P2.X:
+
+Delta.color     = P2.color - P1.color
+Delta.X         = P2.X     - P1.X
+Step.X          = (Delta.color shl 16) / Delta.X
+
+But we also need to know the Step.Y value, since we are gonna draw several
+lines, not just one. So we have to account for the amount of lines this
+color "transformation" will take.
+
+dc.left         = P3.color - P1.color
+Delta.Y         = P3.Y     - P1.Y
+Stepl.Y         = (dc.left shl 16) / Delta.Y
+
+dc.right        = P2.color - P1.color
+Delta.Y         = P2.Y     - P1.Y
+Stepr.Y         = (dc.right shl 16) / Delta.Y

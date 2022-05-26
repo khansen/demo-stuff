@@ -1,0 +1,29 @@
+mov     di,offset DMAbuffer
+;xor     cx,cx
+;xor     bx,bx                           ;error term
+;mov     al,byte ptr [si]
+;scale_loop:
+;;        color=bitmap[source_index]
+;;        draw_pixel(screen_x,screen_y)
+;;        error_term = error_term + destination_height
+;;        if error_term > source_height
+;;                error_term = error_term - source_height
+;;                screen_y = screen_y + 1
+;;        endif
+;;        source_index = source_index + 1
+;;} while screen_y < end_y
+;
+;add     bx,10000
+;cmp     bx,22000
+;jb      skip
+;inc     si
+;mov     al,byte ptr [si]
+;inc     cx
+;cmp     cx,2000
+;je      done_scale
+;sub     bx,22000
+;skip:
+;mov     byte ptr [di],al
+;inc     di
+;jmp     scale_loop
+;done_scale:

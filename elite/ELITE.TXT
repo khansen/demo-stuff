@@ -1,0 +1,186 @@
+iDeaL
+MoDeL TiNY
+P286N
+JuMPS
+DaTaSeG
+
+STaRTuP                 DB 'eLiTe CoNVeRTeR V 1.0 BY SNoWBRo',13,10
+                        DB 'eNTeR FiLeNaMe:$',0
+eRRoR                   DB 13,10,'eRRoR: FiLe NoT FouND.',13,10,'$'
+CoNVeRTiNG              DB 13,10,'CoNVeRTiNG...','$'
+DoNe_CoNVeRTiNG         DB 13,10,'DoNe.',13,10,'$'
+CHaRaCTeRNuMBeR         DB 0
+NuMBYTeS                DW 0
+ouTFiLe                 DB 'eLiTe.TXT',0
+CHaRaCTeR               DB ?
+iNPuTFiLeHaNDLe         DW ?
+ouTPuTFiLeHaNDLe        DW ?
+TeMPBuFFeR              DB 64000 DuP (?)
+iNFiLe                  DB 14 DuP (?)
+
+CoDeSeG
+
+oRG     100H
+
+STaRT:
+
+MoV     aX,3
+iNT     10H
+
+MoV     aX,CS
+MoV     DS,aX
+MoV     eS,aX
+
+MoV     Di,oFFSeT iNFiLe
+XoR     aL,aL
+MoV     CX,14
+ReP     SToSB
+
+MoV     DX,oFFSeT STaRTuP
+MoV     aH,09
+iNT     21H
+
+MoV     Si,oFFSeT iNFiLe
+MoV     [CHaRaCTeRNuMBeR],0
+GeT_FiLeNaMe:
+MoV     aH,00
+iNT     16H
+CMP     aL,13
+Je      CoNTiNue
+CMP     aL,8
+Je      BaCKSPaCe
+MoV     [BYTe PTR Si],aL
+MoV     aH,02
+MoV     DL,aL
+iNT     21H
+iNC     Si
+iNC     [CHaRaCTeRNuMBeR]
+JMP     GeT_FiLeNaMe
+
+BaCKSPaCe:
+CMP     [CHaRaCTeRNuMBeR],0
+Je      GeT_FiLeNaMe
+DeC     Si
+DeC     [CHaRaCTeRNuMBeR]
+MoV     aH,03
+iNT     10H
+DeC     DL
+DeC     aH
+iNT     10H
+PuSH    DX
+MoV     aH,02
+MoV     DL,255
+iNT     21H
+MoV     aH,02
+PoP     DX
+iNT     10H
+JMP     GeT_FiLeNaMe
+
+CoNTiNue:
+
+MoV     aX,3D00H
+MoV     DX,oFFSeT iNFiLe
+iNT     21H
+JC      FiLe_eRRoR
+MoV     [iNPuTFiLeHaNDLe],aX
+
+MoV     aH,3CH
+XoR     CX,CX
+MoV     DX,oFFSeT ouTFiLe
+iNT     21H
+
+MoV     DX,oFFSeT CoNVeRTiNG
+MoV     aH,09
+iNT     21H
+
+MoV     aH,3DH
+MoV     aL,2
+MoV     DX,oFFSeT ouTFiLe
+iNT     21H
+MoV     [ouTPuTFiLeHaNDLe],aX
+
+eNTRY_PoiNT:
+
+MoV     BX,[iNPuTFiLeHaNDLe]
+MoV     aH,3FH
+MoV     DX,oFFSeT TeMPBuFFeR
+MoV     CX,64000
+iNT     21H
+CMP     aX,0
+Je      DoNe
+MoV     [NuMBYTeS],aX
+
+MoV     Si,oFFSeT TeMPBuFFeR
+MoV     Di,oFFSeT TeMPBuFFeR
+MoV     CX,[NuMBYTeS]
+MoV     BX,[ouTPuTFiLeHaNDLe]
+
+CoNVeRT_iF_NeCeSSaRY:
+LoDSB
+CMP     aL,'Z'
+Ja      WRiTe_BYTe
+CMP     aL,'a'
+JB      WRiTe_BYTe
+CMP     aL,'Z'
+JBe     LoWeR_CaSe
+CMP     aL,'a'
+Jae     uPPeR_CaSe
+JMP     WRiTe_BYTe
+LoWeR_CaSe:
+CMP     aL,'a'
+JB      uPPeR_CaSe
+CMP     aL,'a'
+Je      WRiTe_BYTe
+CMP     aL,'e'
+Je      WRiTe_BYTe
+CMP     aL,'i'
+Je      WRiTe_BYTe
+CMP     aL,'o'
+Je      WRiTe_BYTe
+CMP     aL,'u'
+Je      WRiTe_BYTe
+SuB     aL,32
+JMP     WRiTe_BYTe
+uPPeR_CaSe:
+CMP     aL,'Z'
+Ja      WRiTe_BYTe
+CMP     aL,'a'
+Je      CoNVeRT_To_LoWeRCaSe
+CMP     aL,'e'
+Je      CoNVeRT_To_LoWeRCaSe
+CMP     aL,'i'
+Je      CoNVeRT_To_LoWeRCaSe
+CMP     aL,'o'
+Je      CoNVeRT_To_LoWeRCaSe
+CMP     aL,'u'
+Je      CoNVeRT_To_LoWeRCaSe
+JMP     WRiTe_BYTe
+CoNVeRT_To_LoWeRCaSe:
+aDD     aL,32
+WRiTe_BYTe:
+MoV     [BYTe PTR Di],aL
+iNC     Di
+LooP    CoNVeRT_iF_NeCeSSaRY
+
+MoV     aH,40H
+MoV     DX,oFFSeT TeMPBuFFeR
+MoV     CX,[NuMBYTeS]
+iNT     21H
+JMP     eNTRY_PoiNT
+
+FiLe_eRRoR:
+MoV     DX,oFFSeT eRRoR
+MoV     aH,09
+iNT     21H
+JMP     eXiT
+
+DoNe:
+
+MoV     DX,oFFSeT DoNe_CoNVeRTiNG
+MoV     aH,09
+iNT     21H
+
+eXiT:
+iNT     20H
+
+eND     STaRT

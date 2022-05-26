@@ -1,0 +1,123 @@
+
+
+                        -=<[ TWEAKING YOUR WAY TO STARDOM ]>=-
+
+                                Written by Kent Hansen
+
+
+        MODE.ASM demonstrates how to get into three different video modes:
+        256x256, 256x240 and 256x224. All of them are 256-color and chained,
+        which means that the memory addressing is the same as in standard
+        320x200 mode. (I've made unchained versions also, email me if you
+        want them.)
+
+        Why use these modes, you ask? Well, for one thing the calculation
+        of pixel positions is much faster. Both the X and the Y coordinate
+        fit in one byte each. Let's study the ways we have of calculating
+        pixel positions in Mode 13h and mode 256x256:
+
+        In Mode 13h (320x200) you would go like this:
+
+        (Y*320) + X
+
+        And in 256x256 like this:
+
+        (Y*256) + X
+
+        Right?
+
+        Well yeah, but let's have a look at some optimizations. Here is a
+        pretty fast CalcPixel routine for Mode 13h:
+
+        mov     ax,Y
+        shl     ax,8
+        mov     di,ax
+        shr     ax,2
+        add     di,ax
+        add     di,X            ;di now holds pixelpos
+
+        This code is equivalent to (Y*320) + X.
+
+        Now comes the good part. Here's how you can do the same thing
+        in mode 256x256:
+
+        mov     ah,Y
+        mov     al,X
+        mov     di,ax           ;di now holds pixelpos
+
+        Which is equivalent to (Y*256) + X!
+
+        Why does this work? Well think about it... When calculating the
+        Y offset, you multiply the Y value by the X-resolution.
+        In mode 256x256, the X-resolution is, as you might have guessed, 256.
+        256 is a power of 2: 2^8 = 256. Which means that you could calculate
+        the Y offset by executing:
+
+        mov     ax,Y
+        shl     ax,8            ;multiply by 256
+
+        But you should also know, that AH is the upper 8 bits of the
+        16-bit register AX. To transfer a value from AL to AH by using
+        SHL, you would therefore execute:
+
+        mov     ax,0010h        ;AH = 0, AL = 10h
+        shl     ax,8            ;multiply by 256
+
+        AX is now 1000h (AH = 10h, AL = 0)
+
+        Do you see my point? Whether you do or not, just remember this:
+
+        Multiplying a value (in range 0-255) by 256 is the same as moving
+        it into the upper half of an (empty) 16-bit register. That's why
+        you can move the Y value directly into AH. Then move the X value
+        into AL to form the complete offset.
+
+                 THIS ONLY WORKS IN 256xXXX MODES! (Of course)
+
+
+        If you've studied MODE.ASM already, you are probably wondering
+        how I came up with the values that are sent to the VGA registers.
+        Here is the answer:
+
+        I used a program called TWEAK. It lets you study the values of the
+        different VGA registers that affect the screen display, and comes
+        with a number of config files. These files contain values that will
+        set up various modes so you can study them.
+
+        So what I did was I loaded TWEAK while in chained Mode 13h (TWEAK
+        autodetects the mode you're in), then compared the values I got to
+        the values in 256x256 mode. I wrote down the values that WERE
+        DIFFERENT. The config file for mode 256x256 that comes with TWEAK
+        sets up an unchained mode, so I had to make it chained. This is
+        achieved simply by changing certain values (again I compared with
+        chained Mode 13h).
+
+        The rest of the job is pretty simple:
+        Initialize standard Mode 13h, then change the values that need
+        to be changed in order to change the resolution to 256x256/256x240/
+        256x224. Simple as that! (Once you know which values to change and
+        what to change them to, that is...) MODE.ASM does all this for you.
+
+        Feel free to use the code in your own productions. But I would
+        appreciate a small greet or thanks, because I spent a lot of time
+        fiddling around to make this code work. That's why I released it;
+        I don't see the point in people spending time and effort on
+        initializing modes such as these when I've done it already. :-)
+        If you want to use one of these modes in a program of your own, you
+        should be focusing on the program itself, and not having to waste
+        time on coding the screen mode.
+
+        MODE.ASM would never have existed if it weren't for TWEAK. Thanks
+        to the author for making such a great program.
+
+        The code for removing the writeprotection on various Crt Controller
+        Data registers was taken from a tutorial by Vulture. Thanks.
+
+        If anyone for some reason wants to contact me, send an email to the
+        following address:
+
+        kentmhan@online.no
+
+        Want TWEAK? Search for the file TWEAK16B.ZIP from here:
+
+        http://ftpsearch.ntnu.no

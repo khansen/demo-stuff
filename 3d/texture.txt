@@ -1,0 +1,23 @@
+        +----------+       /\
+        |          |   16 /  \
+     32 |          |     /    \
+        |          |    /      \
+        |          |    \\      \
+        +----------+      \\     \ 64
+             32             \\    \
+                           48 \\   \
+                                \\  \
+                                  \\ \
+                                    \\
+
+mov     eax,32
+shl     eax,16
+mov     ebx,16
+div     ebx
+mov     [step_y_left],eax
+
+mov     eax,32
+shl     eax,16
+mov     ebx,64
+div     ebx
+mov     [step_y_right],eax

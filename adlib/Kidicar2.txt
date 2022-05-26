@@ -1,0 +1,1614 @@
+MThd | Format=1 | # of Tracks=8 | Division=120
+
+Track #0 ******************************************
+    Time       Event
+   1: 1:  0 |Time Sig	 |  4/4      | MIDI-clocks\click=24 | 32nds\quarter=8
+	    |Key Sig	 |  C Major  |
+	    |Tempo	 | BPM=110   | micros\quarter=545454
+  21: 1:  2 |Tempo	 | BPM=83    | micros\quarter=722891
+  22: 1:  0 |Tempo	 | BPM=110   | micros\quarter=545454
+  42: 1:  0 |Tempo	 | BPM=83    | micros\quarter=722891
+	    |End of track| 
+
+Track #1 ******************************************
+    Time       Event
+   1: 1:  0 |Port #	 | 0	     |
+	    |Track Name  | len=4     |
+	    0x42 0x61 0x73 0x73 				   <Bass>
+	    |Program	 | chan= 1   | pgm #= 38 Slap 2 Bass
+	    |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+   2: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+   3: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+   4: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+   5: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+   6: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+   7: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+   8: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+   9: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  10: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  11: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  12: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  13: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  14: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  15: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  16: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  17: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  18: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  19: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  20: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  21: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 16 |(Off) Note  | chan= 1   | pitch=a 0
+	 96 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	112 |(Off) Note  | chan= 1   | pitch=a 0
+      2: 72 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 88 |(Off) Note  | chan= 1   | pitch=a 0
+      3: 48 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 64 |(Off) Note  | chan= 1   | pitch=a 0
+      4: 24 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 40 |(Off) Note  | chan= 1   | pitch=a 0
+  22: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  23: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  24: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  25: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  26: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  27: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  28: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  29: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  30: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  31: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  32: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  33: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  34: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  35: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  36: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  37: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  38: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  39: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  40: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  41: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      2:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      3:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+      4:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 20 |(Off) Note  | chan= 1   | pitch=a 0
+	 60 |On Note	 | chan= 1   | pitch=E 1	 | vol=100
+	 80 |(Off) Note  | chan= 1   | pitch=e 1
+  42: 1:  0 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 16 |(Off) Note  | chan= 1   | pitch=a 0
+	 96 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	112 |(Off) Note  | chan= 1   | pitch=a 0
+      2: 72 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 88 |(Off) Note  | chan= 1   | pitch=a 0
+      3: 48 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 64 |(Off) Note  | chan= 1   | pitch=a 0
+      4: 24 |On Note	 | chan= 1   | pitch=A 0	 | vol=100
+	 40 |(Off) Note  | chan= 1   | pitch=a 0
+	    |End of track| 
+
+Track #2 ******************************************
+    Time       Event
+   1: 1:  0 |Port #	 | 0	     |
+	    |Track Name  | len=5     |
+	    0x44 0x72 0x75 0x6D 0x73				   <Drums>
+	    |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+   2: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+   3: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+   4: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+   5: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+   6: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+   7: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+   8: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+   9: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  10: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  11: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  12: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  13: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  14: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  15: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  16: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  17: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  18: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  19: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  20: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  21: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 16 |(Off) Note  | chan=10   | pitch=f#1
+	 96 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	112 |(Off) Note  | chan=10   | pitch=f#1
+      2: 72 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 88 |(Off) Note  | chan=10   | pitch=f#1
+      3: 48 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 64 |(Off) Note  | chan=10   | pitch=f#1
+      4: 24 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 40 |(Off) Note  | chan=10   | pitch=f#1
+  22: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  23: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  24: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  25: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  26: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  27: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  28: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  29: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  30: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  31: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  32: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  33: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  34: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  35: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  36: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  37: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  38: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  39: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  40: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  41: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      2:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      3:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+      4:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 20 |(Off) Note  | chan=10   | pitch=f#1
+	 60 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 80 |(Off) Note  | chan=10   | pitch=f#1
+  42: 1:  0 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 16 |(Off) Note  | chan=10   | pitch=f#1
+	 96 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	112 |(Off) Note  | chan=10   | pitch=f#1
+      2: 72 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 88 |(Off) Note  | chan=10   | pitch=f#1
+      3: 48 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 64 |(Off) Note  | chan=10   | pitch=f#1
+      4: 24 |On Note	 | chan=10   | pitch=F#1	 | vol=100
+	 40 |(Off) Note  | chan=10   | pitch=f#1
+	    |End of track| 
+
+Track #3 ******************************************
+    Time       Event
+   1: 1:  0 |Port #	 | 0	     |
+	    |Track Name  | len=4     |
+	    0x4C 0x65 0x61 0x64 				   <Lead>
+	    |Program	 | chan= 2   | pgm #= 81 Square Wave
+	  1 |Controller  | chan= 2   | contr=Effects | value=120
+   3: 1:  0 |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      2:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+   4: 1:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      2:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+   5: 1:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+   7: 1:  0 |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      2:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+   8: 1:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      2:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+   9: 1:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+  11: 1:  0 |On Note	 | chan= 2   | pitch=A#2	 | vol=100
+      2: 60 |(Off) Note  | chan= 2   | pitch=a#2
+	    |On Note	 | chan= 2   | pitch=B 2	 | vol=100
+	 70 |(Off) Note  | chan= 2   | pitch=b 2
+	    |On Note	 | chan= 2   | pitch=C 3	 | vol=100
+	 80 |(Off) Note  | chan= 2   | pitch=c 3
+	    |On Note	 | chan= 2   | pitch=C#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=c#3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	100 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=D#3	 | vol=100
+	110 |(Off) Note  | chan= 2   | pitch=d#3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	100 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	110 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=D#3	 | vol=100
+  12: 1:  0 |(Off) Note  | chan= 2   | pitch=d#3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+  14: 1:  0 |On Note	 | chan= 2   | pitch=A#2	 | vol=100
+      2: 60 |(Off) Note  | chan= 2   | pitch=a#2
+	    |On Note	 | chan= 2   | pitch=B 2	 | vol=100
+	 70 |(Off) Note  | chan= 2   | pitch=b 2
+	    |On Note	 | chan= 2   | pitch=C 3	 | vol=100
+	 80 |(Off) Note  | chan= 2   | pitch=c 3
+	    |On Note	 | chan= 2   | pitch=C#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=c#3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	100 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=D#3	 | vol=100
+	110 |(Off) Note  | chan= 2   | pitch=d#3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	100 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	110 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=D#3	 | vol=100
+  15: 1:  0 |(Off) Note  | chan= 2   | pitch=d#3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+  17: 1:  0 |On Note	 | chan= 2   | pitch=A 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=a 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	100 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=G 3	 | vol=100
+	110 |(Off) Note  | chan= 2   | pitch=g 3
+	    |On Note	 | chan= 2   | pitch=F#3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+  18: 1:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+  19: 1:  0 |On Note	 | chan= 2   | pitch=A 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=a 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	100 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=G 3	 | vol=100
+	110 |(Off) Note  | chan= 2   | pitch=g 3
+	    |On Note	 | chan= 2   | pitch=F#3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+  20: 1:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+  21: 1:  0 |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	 24 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 48 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 96 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      2: 48 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=D#3	 | vol=100
+	 56 |(Off) Note  | chan= 2   | pitch=d#3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	 64 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=C#3	 | vol=100
+	 72 |(Off) Note  | chan= 2   | pitch=c#3
+	    |On Note	 | chan= 2   | pitch=C 3	 | vol=100
+      3: 48 |(Off) Note  | chan= 2   | pitch=c 3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=C#3	 | vol=100
+	  8 |(Off) Note  | chan= 2   | pitch=c#3
+	    |On Note	 | chan= 2   | pitch=C 3	 | vol=100
+	 16 |(Off) Note  | chan= 2   | pitch=c 3
+	    |On Note	 | chan= 2   | pitch=B 2	 | vol=100
+	 24 |(Off) Note  | chan= 2   | pitch=b 2
+	    |On Note	 | chan= 2   | pitch=A#2	 | vol=100
+  22: 1:  0 |(Off) Note  | chan= 2   | pitch=a#2
+	  1 |Controller  | chan= 2   | contr=Effects | value=120
+  24: 1:  0 |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      2:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+  25: 1:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      2:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+  26: 1:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+  28: 1:  0 |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      2:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+  29: 1:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      2:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 30 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 60 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+  30: 1:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+  32: 1:  0 |On Note	 | chan= 2   | pitch=A#2	 | vol=100
+      2: 60 |(Off) Note  | chan= 2   | pitch=a#2
+	    |On Note	 | chan= 2   | pitch=B 2	 | vol=100
+	 70 |(Off) Note  | chan= 2   | pitch=b 2
+	    |On Note	 | chan= 2   | pitch=C 3	 | vol=100
+	 80 |(Off) Note  | chan= 2   | pitch=c 3
+	    |On Note	 | chan= 2   | pitch=C#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=c#3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	100 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=D#3	 | vol=100
+	110 |(Off) Note  | chan= 2   | pitch=d#3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	100 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	110 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=D#3	 | vol=100
+  33: 1:  0 |(Off) Note  | chan= 2   | pitch=d#3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+  35: 1:  0 |On Note	 | chan= 2   | pitch=A#2	 | vol=100
+      2: 60 |(Off) Note  | chan= 2   | pitch=a#2
+	    |On Note	 | chan= 2   | pitch=B 2	 | vol=100
+	 70 |(Off) Note  | chan= 2   | pitch=b 2
+	    |On Note	 | chan= 2   | pitch=C 3	 | vol=100
+	 80 |(Off) Note  | chan= 2   | pitch=c 3
+	    |On Note	 | chan= 2   | pitch=C#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=c#3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	100 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=D#3	 | vol=100
+	110 |(Off) Note  | chan= 2   | pitch=d#3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	100 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	110 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=D#3	 | vol=100
+  36: 1:  0 |(Off) Note  | chan= 2   | pitch=d#3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+  38: 1:  0 |On Note	 | chan= 2   | pitch=A 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=a 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	100 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=G 3	 | vol=100
+	110 |(Off) Note  | chan= 2   | pitch=g 3
+	    |On Note	 | chan= 2   | pitch=F#3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+  39: 1:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+  40: 1:  0 |On Note	 | chan= 2   | pitch=A 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=a 3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	 90 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=G#3	 | vol=100
+	100 |(Off) Note  | chan= 2   | pitch=g#3
+	    |On Note	 | chan= 2   | pitch=G 3	 | vol=100
+	110 |(Off) Note  | chan= 2   | pitch=g 3
+	    |On Note	 | chan= 2   | pitch=F#3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=f#3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+  41: 1:  0 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      3:  0 |(Off) Note  | chan= 2   | pitch=e 3
+  42: 1:  0 |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	 24 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+	 48 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=F 3	 | vol=100
+	 96 |(Off) Note  | chan= 2   | pitch=f 3
+	    |On Note	 | chan= 2   | pitch=E 3	 | vol=100
+      2: 48 |(Off) Note  | chan= 2   | pitch=e 3
+	    |On Note	 | chan= 2   | pitch=D#3	 | vol=100
+	 56 |(Off) Note  | chan= 2   | pitch=d#3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+	 64 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=C#3	 | vol=100
+	 72 |(Off) Note  | chan= 2   | pitch=c#3
+	    |On Note	 | chan= 2   | pitch=C 3	 | vol=100
+      3: 48 |(Off) Note  | chan= 2   | pitch=c 3
+	    |On Note	 | chan= 2   | pitch=D 3	 | vol=100
+      4:  0 |(Off) Note  | chan= 2   | pitch=d 3
+	    |On Note	 | chan= 2   | pitch=C#3	 | vol=100
+	  8 |(Off) Note  | chan= 2   | pitch=c#3
+	    |On Note	 | chan= 2   | pitch=C 3	 | vol=100
+	 16 |(Off) Note  | chan= 2   | pitch=c 3
+	    |On Note	 | chan= 2   | pitch=B 2	 | vol=100
+	 24 |(Off) Note  | chan= 2   | pitch=b 2
+	    |On Note	 | chan= 2   | pitch=A#2	 | vol=100
+  43: 1:  0 |(Off) Note  | chan= 2   | pitch=a#2
+	    |End of track| 
+
+Track #4 ******************************************
+    Time       Event
+   1: 1:  0 |Port #	 | 0	     |
+	    |End of track| 
+
+Track #5 ******************************************
+    Time       Event
+   1: 1:  0 |Port #	 | 0	     |
+	    |Track Name  | len=26    |
+	    0x43 0x61 0x73 0x74 0x6C 0x65 0x20 0x4D 0x75 0x73 0x69 <Castle Musi>
+	    0x63 0x20 0x74 0x6F 0x20 0x4B 0x69 0x64 0x20 0x49 0x63 <c to Kid Ic>
+	    0x61 0x72 0x75 0x73 				   <arus>
+	    |End of track| 
+
+Track #6 ******************************************
+    Time       Event
+   1: 1:  0 |Port #	 | 0	     |
+	    |Track Name  | len=13    |
+	    0x53 0x65 0x71 0x75 0x65 0x6E 0x63 0x65 0x64 0x20 0x62 <Sequenced b>
+	    0x79 0x3A						   <y:>
+	    |End of track| 
+
+Track #7 ******************************************
+    Time       Event
+   1: 1:  0 |Port #	 | 0	     |
+	    |Track Name  | len=12    |
+	    0x65 0x72 0x69 0x6B 0x40 0x76 0x62 0x65 0x2E 0x63 0x6F <erik@vbe.co>
+	    0x6D						   <m>
+	    |End of track| 

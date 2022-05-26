@@ -1,0 +1,112 @@
+DOSSEG
+.MODEL SMALL
+.STACK 200h
+.386
+JUMPS
+.DATA
+
+X               dw 0
+Y               dw 48000
+
+INCLUDE         rand.inc
+
+PixelA          db 0
+PixelB          db 0
+PixelC          db 0
+PixelD          db 0
+ComputedPixel   dw 0
+PixelPos        dw 0
+RandCount       dw 0
+
+INCLUDE         fire.pal
+
+StartCoords     db 23,63,46,145,198,95
+
+.CODE
+
+mov     ax,13h
+int     10h
+mov     ax,@data
+mov     ds,ax
+mov     es,ax
+mov     dx,3c8h
+xor     al,al
+out     dx,al
+inc     dx
+mov     cx,768
+lea     si,palette
+rep     outsb
+
+prepare:
+mov     ax,0a000h
+mov     es,ax
+mov     di,63360
+mov     cx,320
+mov     al,200
+mov     ah,200
+rep     stosw
+mov     x,0
+call    waitvrt
+main_loop:
+
+mov     di,X
+add     di,Y
+
+mov     PixelPos,di
+add     di,320
+mov     al,byte ptr es:[di]
+mov     PixelA,al
+add     di,319
+mov     al,byte ptr es:[di]
+mov     PixelB,al
+inc     di
+mov     al,byte ptr es:[di]
+mov     PixelC,al
+inc     di
+mov     al,byte ptr es:[di]
+mov     PixelD,al
+
+mov     al,PixelA
+xor     ah,ah
+shl     ax,3
+mov     ComputedPixel,ax
+mov     al,PixelC
+xor     dx,dx
+xor     ah,ah
+mov     bx,14
+mul     bx
+add     ComputedPixel,ax
+mov     al,PixelB
+xor     ah,ah
+add     ComputedPixel,ax
+mov     al,PixelD
+xor     ah,ah
+add     ComputedPixel,ax
+mov     ax,ComputedPixel
+shr     ax,5
+mov     di,PixelPos
+xor     ah,ah
+add     al,19
+stosb
+inc     X
+cmp     X,16000
+jnz     main_loop
+cmp     RandCount,320
+je      reset_count
+inc     RandCount
+in      al,60h
+cmp     al,1
+je      exit
+jmp     prepare
+
+reset_count:
+mov     RandCount,0
+jmp     prepare
+
+exit:
+mov     ax,3
+int     10h
+mov     ax,4c00h
+int     21h
+INCLUDE waitvrt.inc
+end

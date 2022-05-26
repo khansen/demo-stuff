@@ -1,0 +1,80 @@
+DOSSEG
+.MODEL SMALL
+.386
+.STACK 100h
+.data
+INCLUDE         cosine.dat
+INCLUDE         fire.pal
+Y               dw 0
+SinCount        dw 0
+.code
+mov     ax,13h
+int     10h
+mov     ax,@data
+mov     ds,ax
+mov     es,ax
+mov     dx,3c8h
+xor     al,al
+out     dx,al
+inc     dx
+lea     si,palette
+mov     cx,768
+rep     outsb
+
+mov     ax,@data
+mov     ds,ax
+mov     ax,0a000h
+mov     es,ax
+
+prepare:
+xor     di,di
+mov     cx,200
+vertical:
+push    cx
+mov     cx,320
+lea     si,cosine
+add     si,y
+add     si,sincount
+lodsb
+mov     dl,al
+lea     si,cosine
+horizontal:
+lodsb
+mov     bl,al
+lodsb
+add     bl,al
+lodsb
+add     bl,al
+add     bl,dl
+mov     al,bl
+mov     byte ptr es:[di],al
+inc     di
+loop    horizontal
+
+pop     cx
+inc     y
+loop    vertical
+
+in      al,60h
+cmp     al,1
+je      exit
+
+call    waitvrt
+mov     y,0
+inc     sincount
+cmp     sincount,256
+je      reset_counter
+jmp     prepare
+
+reset_counter:
+mov     sincount,0
+jmp     prepare
+
+exit:
+mov     ax,3
+int     10h
+mov     ax,4c00h
+int     21h
+
+INCLUDE waitvrt.inc
+end

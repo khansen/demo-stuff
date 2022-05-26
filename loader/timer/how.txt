@@ -1,0 +1,11 @@
+Pattern update and display:
+---------------------------
+DS:@DATA,ES:@DATA
+
+si: patternbuffer
+di: DMAbuffer
+
+mov     si,offset patternbuffer
+mov     di,offset DMAbuffer
+
+

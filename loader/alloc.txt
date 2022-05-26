@@ -1,0 +1,21 @@
+AllocPatterns:  xor     bx,bx
+                mov     bl,al
+                inc     bx                      ;number of patterns
+                push    bx
+                shl     bx,6
+                mov     ax,4800h
+                int     21h
+                pop     bx
+                jc      CloseFile
+                mov     Word Ptr [ModInfo.Patterns],0
+                mov     Word Ptr [ModInfo.Patterns+2],ax
+
+ReadPatterns:   push    ds
+                mov     ax,3F00h
+                mov     cx,bx
+                shl     cx,10
+                mov     bx,[FileHandle]
+                lds     dx,[ModInfo.Patterns]
+                int     21h
+                pop     ds
+                jc      CloseFile
